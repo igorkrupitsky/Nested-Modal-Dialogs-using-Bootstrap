@@ -35,19 +35,19 @@ To use this code, include BsModal.js file in the page that creates the first dia
 
 From the main page (Default.htm) ShowModal() function can be used like this:
 
-`
+```html
  <input type="button" class="btn btn-info" value="Open Modal1.htm" 
   onclick="ShowModal('Modal1.htm',300,430)">
-`
+```
 From a dialog page, the ShowModal() function can be used like this:
 
-`
+```html
  <input type="button" class="btn btn-info" value="Open Modal2.htm" 
   onclick="parent.ShowModal('Modal2.htm',300,350,window)"> 
-`
+```
   
 A modal dialog can close by calling HideModal() function like:
 
-`
+```html
 <button type="button" class="btn btn-default" onclick='parent.HideModal()'>Cancel</button> 
-`
+```
